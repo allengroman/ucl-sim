@@ -1,0 +1,6 @@
+projectV2/csv_exports/events.csv filter=lfs diff=lfs merge=lfs -text
+projectV2/data/soccer_simulation.db filter=lfs diff=lfs merge=lfs -text
+project/models/pass_target_model.joblib filter=lfs diff=lfs merge=lfs -text
+projectV2/data/events.csv filter=lfs diff=lfs merge=lfs -text
+projectV2/simulation/data/events.csv filter=lfs diff=lfs merge=lfs -text
+projectV2/events.csv filter=lfs diff=lfs merge=lfs -text

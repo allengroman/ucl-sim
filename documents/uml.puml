@@ -1,0 +1,375 @@
+@startuml UCL Simulation
+
+' Define enums
+enum PhysicalState {
+  ON_GROUND
+  IN_AIR_LOW
+  IN_AIR_MEDIUM
+  IN_AIR_HIGH
+  STATIONARY
+  MOVING
+}
+
+enum BallAction {
+  PASSED
+  SHOT
+  CROSSED
+  DRIBBLED
+  CLEARED
+  LOOSE
+  HEADED
+  SAVED
+  BLOCKED
+  STATIC
+}
+
+enum FieldZone {
+  DEFENSIVE_THIRD
+  MIDDLE_THIRD
+  ATTACKING_THIRD
+  LEFT_WING
+  CENTER
+  RIGHT_WING
+  PENALTY_AREA
+  GOAL_AREA
+  CORNER_AREA
+}
+
+enum PlayerAction {
+  ' With ball
+  DRIBBLE
+  PASS
+  THROUGH_PASS
+  CROSS
+  SHOOT
+  HOLD
+  TURN
+  SKILL_MOVE
+  CLEAR
+  
+  ' Without ball, team in possession
+  RUN_INTO_SPACE
+  PROVIDE_SUPPORT
+  OVERLAPPING_RUN
+  UNDERLAPPING_RUN
+  AWAIT_PASS
+  CREATE_SPACE
+  ATTACK_CROSS
+  DROP_DEEP
+  
+  ' Without possession (defending)
+  TACKLE
+  INTERCEPT
+  BLOCK_SHOT
+  BLOCK_CROSS
+  MARK_PLAYER
+  PRESS
+  CLOSE_DOWN
+  JOCKEY
+  COVER_SPACE
+  TRACK_RUN
+  CONTAIN
+  RECOVER_POSITION
+  
+  ' Goalkeeper specific
+  SAVE_SHOT
+  COLLECT_CROSS
+  DISTRIBUTE
+  RUSH_OUT
+  SET_DEFENSIVE_LINE
+  SWEEP
+  
+  ' Transition
+  COUNTER_ATTACK
+  COUNTER_PRESS
+  TRANSITION_TO_DEFENSE
+  TRANSITION_TO_ATTACK
+  
+  ' Other
+  IDLE
+}
+
+enum ActionPhase {
+  STARTING
+  EXECUTING
+  FINISHING
+}
+
+enum PlayingPosition {
+  GK
+  CB
+  LB
+  RB
+  CDM
+  CM
+  CAM
+  LM
+  RM
+  LW
+  RW
+  CF
+  ST
+}
+
+enum TeamPhase {
+  ATTACKING
+  DEFENDING
+  TRANSITION_TO_ATTACK
+  TRANSITION_TO_DEFENSE
+  SET_PIECE_ATTACK
+  SET_PIECE_DEFENSE
+}
+
+enum InjuryStatus {
+  HEALTHY
+  SLIGHT_INJURY
+  SEVERE_INJURY
+}
+
+enum MatchPeriod {
+  FIRST_HALF
+  SECOND_HALF
+  FIRST_EXTRA
+  SECOND_EXTRA
+  PENALTIES
+  HALFTIME
+  FULLTIME
+}
+
+enum GamePhase {
+  OPEN_PLAY
+  SET_PIECE
+  OUT_OF_PLAY
+  GOAL_KICK
+  THROW_IN
+  CORNER
+  FREE_KICK
+  PENALTY
+  KICKOFF
+}
+
+enum SetPieceStatus {
+  NONE
+  PREPARING
+  READY
+  TAKEN
+}
+
+enum Formation {
+  F_4_4_2
+  F_4_3_3
+  F_4_2_3_1
+  F_3_5_2
+  F_5_3_2
+  F_4_5_1
+  F_3_4_3
+}
+
+' Define main classes
+class Ball {
+  + position: numpy.ndarray
+  + height: float
+  + velocity: numpy.ndarray
+  + speed: float
+  + possession_team: Team
+  + possession_player: Player
+  + physical_state: PhysicalState
+  + action: BallAction
+  + zone: FieldZone
+  + update_position(dt: float): void
+  - _update_zone(): void
+  + set_possession(team: Team, player: Player): void
+  + clear_possession(): void
+}
+
+class Player {
+  + player_id: str
+  + name: str
+  + assigned_position: PlayingPosition
+  + team: Team
+  + attributes: Dict[str, float]
+  + position: numpy.ndarray
+  + orientation: float
+  + velocity: numpy.ndarray
+  + speed: float
+  + acceleration: numpy.ndarray
+  + has_ball: bool
+  + distance_to_ball: float
+  + current_action: PlayerAction
+  + action_phase: ActionPhase
+  + action_target: Any
+  + action_timer: float
+  + available_for_action: bool
+  + current_zone: FieldZone
+  + marking_assignment: Player
+  + formation_position: Any
+  + current_stamina: float
+  + fatigue: float
+  + injury_status: InjuryStatus
+  + sprint_available: bool
+  + yellow_cards: int
+  + red_card: bool
+  + update_distance_to_ball(dis: float): void
+  + update_position(dt: float): void
+  - _update_zone(): void
+  + start_action(action: PlayerAction, target: Any): bool
+  + update_action(dt: float): void
+  + reduce_stamina(amount: float): void
+  + recover_stamina(amount: float): void
+  + is_available(): bool
+}
+
+class Team {
+  + team_id: str
+  + name: str
+  + possession: bool
+  + goals_scored: int
+  + goals_conceded: int
+  + players: List[Player]
+  + lineup: List[Player]
+  + bench: List[Player]
+  + captain: Player
+  + formation: Formation
+  + phase: TeamPhase
+  + tactics: Dict[str, Any]
+  + substitutions_made: int
+  + substitutions_available: int
+  + add_player(player: Player): void
+  + select_lineup(starting_eleven: List[Player]): void
+  + set_formation(formation: Formation): void
+  - _position_players(): void
+  + make_substitution(player_off: Player, player_on: Player): bool
+  + update_tactics(**kwargs): void
+}
+
+class Match {
+  + home_team: Team
+  + away_team: Team
+  + ball: Ball
+  + clock: float
+  + period: MatchPeriod
+  + game_phase: GamePhase
+  + set_piece_status: SetPieceStatus
+  + team_in_possession: Team
+  + events: List[Dict]
+  + get_current_minute(): int
+  + advance_time(dt: float): void
+  + switch_possession(team: Team, player: Player): void
+  + record_event(event_type: str, player: Player, team: Team, details: Dict): void
+}
+
+class SimpleMatchSimulator {
+  + match: Match
+  + env: simpy.Environment
+  + time_step: float
+  + setup(): void
+  + run(until: float): void
+  + match_process(): Generator
+  - _check_period_transitions(): void
+  - _update_players(): void
+  - _update_player_position(player: Player): void
+  - _update_player_stamina(player: Player): void
+  - _player_decision(player: Player): void
+  - _update_ball(): void
+  - _process_events(): void
+  - _check_for_goals(): void
+  - _reset_after_goal(kickoff_team: Team): void
+}
+
+class ActionOutcomePredictor {
+  + base_probabilities: Dict[PlayerAction, float]
+  + predict_success(action: PlayerAction, player: Player, context: Dict): bool
+  - _get_attribute_modifier(action: PlayerAction, player: Player): float
+  - _get_context_modifier(action: PlayerAction, context: Dict): float
+  - _get_stamina_modifier(player: Player): float
+  + predict_pass_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_shot_outcome(player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_tackle_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_dribble_outcome(player: Player, match: Match): Tuple[bool, str, Dict]
+}
+
+class PlayerDecisionModel {
+  + model: Any
+  + feature_scaler: Any
+  + action_mapping: Dict
+  + predict_action(player: Player, match: Match): PlayerAction
+  - _extract_features(player: Player, match: Match): numpy.ndarray
+  - _placeholder_prediction(player: Player, match: Match): PlayerAction
+}
+
+class PlayerDecisionTrainer {
+  + model_type: str
+  + training_data: List
+  + feature_columns: List
+  + label_column: str
+  + collect_data(data_source: str): void
+  + preprocess_data(): void
+  + train_model(): void
+  - _train_random_forest(): void
+  - _train_neural_network(): void
+  - _train_reinforcement_learning(): void
+  + evaluate_model(): void
+  + save_model(filepath: str): void
+}
+
+class FeatureExtractor {
+  + spatial_grid_size: int
+  + use_relative_positions: bool
+  + include_historical_features: bool
+  + feature_history_length: int
+  + extract_player_features(player: Player): Dict[str, float]
+  + extract_spatial_features(player: Player, match: Match): Dict[str, float]
+  + extract_tactical_features(player: Player, match: Match): Dict[str, float]
+  + extract_temporal_features(player: Player, match: Match, history: List[Dict]): Dict[str, float]
+}
+
+class AIPlayerDecisionSystem {
+  + decision_model: PlayerDecisionModel
+  + feature_extractor: FeatureExtractor
+  + state_history: Dict[str, List[Dict]]
+  - _load_model(model_path: str): void
+  + decide_action(player: Player, match: Match): PlayerAction
+  - _update_history(player: Player, match: Match): void
+}
+
+' Define relationships
+Ball "1" -- "0..1" Player: possession >
+Ball "1" -- "0..1" Team: possession >
+
+Player "11..*" --o "1" Team: belongs to >
+Player "1" -- "0..1" Player: marks >
+
+Team "1" --* "11..*" Player: has >
+Team "1" --o "0..11" Player: lineup >
+Team "1" --o "0..*" Player: bench >
+Team "1" --o "1" Player: captain >
+
+Match "1" --* "1" Ball: has >
+Match "1" --o "1" Team: home_team >
+Match "1" --o "1" Team: away_team >
+Match "1" --o "0..1" Team: team_in_possession >
+
+SimpleMatchSimulator "1" --o "1" Match: simulates >
+
+AIPlayerDecisionSystem "1" --* "1" PlayerDecisionModel: uses >
+AIPlayerDecisionSystem "1" --* "1" FeatureExtractor: uses >
+
+' Connect enums to classes that use them
+Ball -- PhysicalState
+Ball -- BallAction
+Ball -- FieldZone
+
+Player -- PlayingPosition
+Player -- PlayerAction
+Player -- ActionPhase
+Player -- FieldZone
+Player -- InjuryStatus
+
+Team -- Formation
+Team -- TeamPhase
+
+Match -- MatchPeriod
+Match -- GamePhase
+Match -- SetPieceStatus
+
+@enduml

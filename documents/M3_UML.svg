@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="2740px" preserveAspectRatio="none" style="width:2415px;height:2740px;background:#FFFFFF;" version="1.1" viewBox="0 0 2415 2740" width="2415px" zoomAndPan="magnify"><defs/><g><!--MD5=[9540edcba6825c1ffd08236bbb176037]
+class PhysicalState--><g id="elem_PhysicalState"><rect codeLine="2" fill="#F1F1F1" height="145.7813" id="PhysicalState" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="51" y="1278"/><ellipse cx="66" cy="1294" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M70.1094,1300 L62.3906,1300 L62.3906,1287.6094 L70.1094,1287.6094 L70.1094,1289.7656 L64.8438,1289.7656 L64.8438,1292.4375 L69.6094,1292.4375 L69.6094,1294.5938 L64.8438,1294.5938 L64.8438,1297.8438 L70.1094,1297.8438 L70.1094,1300 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="80" y="1298.8467">PhysicalState</text><line style="stroke:#181818;stroke-width:0.5;" x1="52" x2="173" y1="1310" y2="1310"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="57" y="1326.9951">ON_GROUND</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="57" y="1343.292">IN_AIR_LOW</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="57" y="1359.5889">IN_AIR_MEDIUM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="57" y="1375.8857">IN_AIR_HIGH</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="57" y="1392.1826">STATIONARY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="57" y="1408.4795">MOVING</text><line style="stroke:#181818;stroke-width:0.5;" x1="52" x2="173" y1="1415.7813" y2="1415.7813"/></g><!--MD5=[31c73b99249b91aa01944a23406d172b]
+class BallAction--><g id="elem_BallAction"><rect codeLine="11" fill="#F1F1F1" height="210.9688" id="BallAction" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="209" y="1245.5"/><ellipse cx="224" cy="1261.5" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M228.1094,1267.5 L220.3906,1267.5 L220.3906,1255.1094 L228.1094,1255.1094 L228.1094,1257.2656 L222.8438,1257.2656 L222.8438,1259.9375 L227.6094,1259.9375 L227.6094,1262.0938 L222.8438,1262.0938 L222.8438,1265.3438 L228.1094,1265.3438 L228.1094,1267.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="238" y="1266.3467">BallAction</text><line style="stroke:#181818;stroke-width:0.5;" x1="210" x2="307" y1="1277.5" y2="1277.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="215" y="1294.4951">PASSED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="215" y="1310.792">SHOT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="215" y="1327.0889">CROSSED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="215" y="1343.3857">DRIBBLED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="215" y="1359.6826">CLEARED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="215" y="1375.9795">LOOSE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="215" y="1392.2764">HEADED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="215" y="1408.5732">SAVED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="215" y="1424.8701">BLOCKED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="215" y="1441.167">STATIC</text><line style="stroke:#181818;stroke-width:0.5;" x1="210" x2="307" y1="1448.4688" y2="1448.4688"/></g><!--MD5=[0e15573b0cd65ebabdc8e2e1c5388a78]
+class FieldZone--><g id="elem_FieldZone"><rect codeLine="24" fill="#F1F1F1" height="194.6719" id="FieldZone" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="7" y="2022"/><ellipse cx="40" cy="2038" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M44.1094,2044 L36.3906,2044 L36.3906,2031.6094 L44.1094,2031.6094 L44.1094,2033.7656 L38.8438,2033.7656 L38.8438,2036.4375 L43.6094,2036.4375 L43.6094,2038.5938 L38.8438,2038.5938 L38.8438,2041.8438 L44.1094,2041.8438 L44.1094,2044 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="58" y="2042.8467">FieldZone</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="147" y1="2054" y2="2054"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="13" y="2070.9951">DEFENSIVE_THIRD</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="13" y="2087.292">MIDDLE_THIRD</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="13" y="2103.5889">ATTACKING_THIRD</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="13" y="2119.8857">LEFT_WING</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="13" y="2136.1826">CENTER</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="13" y="2152.4795">RIGHT_WING</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="13" y="2168.7764">PENALTY_AREA</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="13" y="2185.0732">GOAL_AREA</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="13" y="2201.3701">CORNER_AREA</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="147" y1="2208.6719" y2="2208.6719"/></g><!--MD5=[b5331bc6b6919ce7b915dac8f8695226]
+class PlayerAction--><g id="elem_PlayerAction"><rect codeLine="36" fill="#F1F1F1" height="781.3594" id="PlayerAction" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="194" x="183.5" y="1729"/><ellipse cx="234.25" cy="1745" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M238.3594,1751 L230.6406,1751 L230.6406,1738.6094 L238.3594,1738.6094 L238.3594,1740.7656 L233.0938,1740.7656 L233.0938,1743.4375 L237.8594,1743.4375 L237.8594,1745.5938 L233.0938,1745.5938 L233.0938,1748.8438 L238.3594,1748.8438 L238.3594,1751 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="254.75" y="1749.8467">PlayerAction</text><line style="stroke:#181818;stroke-width:0.5;" x1="184.5" x2="376.5" y1="1761" y2="1761"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="189.5" y="1777.9951">DRIBBLE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="189.5" y="1794.292">PASS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="189.5" y="1810.5889">THROUGH_PASS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="189.5" y="1826.8857">CROSS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="189.5" y="1843.1826">SHOOT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="189.5" y="1859.4795">HOLD</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="189.5" y="1875.7764">TURN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="189.5" y="1892.0732">SKILL_MOVE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="189.5" y="1908.3701">CLEAR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="189.5" y="1924.667"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="189.5" y="1940.9639">RUN_INTO_SPACE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="189.5" y="1957.2607">PROVIDE_SUPPORT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="189.5" y="1973.5576">OVERLAPPING_RUN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="189.5" y="1989.8545">UNDERLAPPING_RUN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="189.5" y="2006.1514">AWAIT_PASS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="189.5" y="2022.4482">CREATE_SPACE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="189.5" y="2038.7451">ATTACK_CROSS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="189.5" y="2055.042">DROP_DEEP</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="189.5" y="2071.3389"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="189.5" y="2087.6357">TACKLE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="189.5" y="2103.9326">INTERCEPT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="189.5" y="2120.2295">BLOCK_SHOT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="189.5" y="2136.5264">BLOCK_CROSS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="189.5" y="2152.8232">MARK_PLAYER</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="189.5" y="2169.1201">PRESS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="189.5" y="2185.417">CLOSE_DOWN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="189.5" y="2201.7139">JOCKEY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="189.5" y="2218.0107">COVER_SPACE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="189.5" y="2234.3076">TRACK_RUN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="189.5" y="2250.6045">CONTAIN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="189.5" y="2266.9014">RECOVER_POSITION</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="189.5" y="2283.1982"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="189.5" y="2299.4951">SAVE_SHOT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="189.5" y="2315.792">COLLECT_CROSS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="189.5" y="2332.0889">DISTRIBUTE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="189.5" y="2348.3857">RUSH_OUT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="189.5" y="2364.6826">SET_DEFENSIVE_LINE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="189.5" y="2380.9795">SWEEP</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="189.5" y="2397.2764"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="189.5" y="2413.5732">COUNTER_ATTACK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="189.5" y="2429.8701">COUNTER_PRESS</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="189.5" y="2446.167">TRANSITION_TO_DEFENSE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="189.5" y="2462.4639">TRANSITION_TO_ATTACK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="189.5" y="2478.7607"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="189.5" y="2495.0576">IDLE</text><line style="stroke:#181818;stroke-width:0.5;" x1="184.5" x2="376.5" y1="2502.3594" y2="2502.3594"/></g><!--MD5=[729e0b5a3e91598f0715c567b69be41b]
+class ActionPhase--><g id="elem_ActionPhase"><rect codeLine="90" fill="#F1F1F1" height="96.8906" id="ActionPhase" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="412.5" y="2071"/><ellipse cx="427.5" cy="2087" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M431.6094,2093 L423.8906,2093 L423.8906,2080.6094 L431.6094,2080.6094 L431.6094,2082.7656 L426.3438,2082.7656 L426.3438,2085.4375 L431.1094,2085.4375 L431.1094,2087.5938 L426.3438,2087.5938 L426.3438,2090.8438 L431.6094,2090.8438 L431.6094,2093 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="441.5" y="2091.8467">ActionPhase</text><line style="stroke:#181818;stroke-width:0.5;" x1="413.5" x2="529.5" y1="2103" y2="2103"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="418.5" y="2119.9951">STARTING</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="418.5" y="2136.292">EXECUTING</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="418.5" y="2152.5889">FINISHING</text><line style="stroke:#181818;stroke-width:0.5;" x1="413.5" x2="529.5" y1="2159.8906" y2="2159.8906"/></g><!--MD5=[6774717c86305615677f1b0e47e00de9]
+class PlayingPosition--><g id="elem_PlayingPosition"><rect codeLine="96" fill="#F1F1F1" height="259.8594" id="PlayingPosition" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="135" x="566" y="1989.5"/><ellipse cx="581" cy="2005.5" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M585.1094,2011.5 L577.3906,2011.5 L577.3906,1999.1094 L585.1094,1999.1094 L585.1094,2001.2656 L579.8438,2001.2656 L579.8438,2003.9375 L584.6094,2003.9375 L584.6094,2006.0938 L579.8438,2006.0938 L579.8438,2009.3438 L585.1094,2009.3438 L585.1094,2011.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="595" y="2010.3467">PlayingPosition</text><line style="stroke:#181818;stroke-width:0.5;" x1="567" x2="700" y1="2021.5" y2="2021.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="572" y="2038.4951">GK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="572" y="2054.792">CB</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="17" x="572" y="2071.0889">LB</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="572" y="2087.3857">RB</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="572" y="2103.6826">CDM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="572" y="2119.9795">CM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="572" y="2136.2764">CAM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="572" y="2152.5732">LM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="572" y="2168.8701">RM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="572" y="2185.167">LW</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="572" y="2201.4639">RW</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="572" y="2217.7607">CF</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="572" y="2234.0576">ST</text><line style="stroke:#181818;stroke-width:0.5;" x1="567" x2="700" y1="2241.3594" y2="2241.3594"/></g><!--MD5=[396e6f53fc42be919fe99d67d100e912]
+class TeamPhase--><g id="elem_TeamPhase"><rect codeLine="112" fill="#F1F1F1" height="145.7813" id="TeamPhase" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="194" x="921.5" y="2579"/><ellipse cx="973.25" cy="2595" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M977.3594,2601 L969.6406,2601 L969.6406,2588.6094 L977.3594,2588.6094 L977.3594,2590.7656 L972.0938,2590.7656 L972.0938,2593.4375 L976.8594,2593.4375 L976.8594,2595.5938 L972.0938,2595.5938 L972.0938,2598.8438 L977.3594,2598.8438 L977.3594,2601 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="993.75" y="2599.8467">TeamPhase</text><line style="stroke:#181818;stroke-width:0.5;" x1="922.5" x2="1114.5" y1="2611" y2="2611"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="927.5" y="2627.9951">ATTACKING</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="927.5" y="2644.292">DEFENDING</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="927.5" y="2660.5889">TRANSITION_TO_ATTACK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="927.5" y="2676.8857">TRANSITION_TO_DEFENSE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="927.5" y="2693.1826">SET_PIECE_ATTACK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="927.5" y="2709.4795">SET_PIECE_DEFENSE</text><line style="stroke:#181818;stroke-width:0.5;" x1="922.5" x2="1114.5" y1="2716.7813" y2="2716.7813"/></g><!--MD5=[23f58ee4d8e24b7b3b7ec288a36b202e]
+class InjuryStatus--><g id="elem_InjuryStatus"><rect codeLine="121" fill="#F1F1F1" height="96.8906" id="InjuryStatus" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="736" y="2071"/><ellipse cx="754.15" cy="2087" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M758.2594,2093 L750.5406,2093 L750.5406,2080.6094 L758.2594,2080.6094 L758.2594,2082.7656 L752.9938,2082.7656 L752.9938,2085.4375 L757.7594,2085.4375 L757.7594,2087.5938 L752.9938,2087.5938 L752.9938,2090.8438 L758.2594,2090.8438 L758.2594,2093 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="768.85" y="2091.8467">InjuryStatus</text><line style="stroke:#181818;stroke-width:0.5;" x1="737" x2="854" y1="2103" y2="2103"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="742" y="2119.9951">HEALTHY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="742" y="2136.292">SLIGHT_INJURY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="742" y="2152.5889">SEVERE_INJURY</text><line style="stroke:#181818;stroke-width:0.5;" x1="737" x2="854" y1="2159.8906" y2="2159.8906"/></g><!--MD5=[1a5c25006ac8651b9a825c040909d51f]
+class MatchPeriod--><g id="elem_MatchPeriod"><rect codeLine="127" fill="#F1F1F1" height="162.0781" id="MatchPeriod" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="80" y="762"/><ellipse cx="98.15" cy="778" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M102.2594,784 L94.5406,784 L94.5406,771.6094 L102.2594,771.6094 L102.2594,773.7656 L96.9938,773.7656 L96.9938,776.4375 L101.7594,776.4375 L101.7594,778.5938 L96.9938,778.5938 L96.9938,781.8438 L102.2594,781.8438 L102.2594,784 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="112.85" y="782.8467">MatchPeriod</text><line style="stroke:#181818;stroke-width:0.5;" x1="81" x2="204" y1="794" y2="794"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="86" y="810.9951">FIRST_HALF</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="86" y="827.292">SECOND_HALF</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="86" y="843.5889">FIRST_EXTRA</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="86" y="859.8857">SECOND_EXTRA</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="86" y="876.1826">PENALTIES</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="86" y="892.4795">HALFTIME</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="86" y="908.7764">FULLTIME</text><line style="stroke:#181818;stroke-width:0.5;" x1="81" x2="204" y1="916.0781" y2="916.0781"/></g><!--MD5=[fd353cc8ba87c52c1662d5210b818049]
+class GamePhase--><g id="elem_GamePhase"><rect codeLine="137" fill="#F1F1F1" height="194.6719" id="GamePhase" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="240.5" y="745.5"/><ellipse cx="255.5" cy="761.5" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M259.6094,767.5 L251.8906,767.5 L251.8906,755.1094 L259.6094,755.1094 L259.6094,757.2656 L254.3438,757.2656 L254.3438,759.9375 L259.1094,759.9375 L259.1094,762.0938 L254.3438,762.0938 L254.3438,765.3438 L259.6094,765.3438 L259.6094,767.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="269.5" y="766.3467">GamePhase</text><line style="stroke:#181818;stroke-width:0.5;" x1="241.5" x2="355.5" y1="777.5" y2="777.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="246.5" y="794.4951">OPEN_PLAY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="246.5" y="810.792">SET_PIECE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="246.5" y="827.0889">OUT_OF_PLAY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="246.5" y="843.3857">GOAL_KICK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="246.5" y="859.6826">THROW_IN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="246.5" y="875.9795">CORNER</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="246.5" y="892.2764">FREE_KICK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="246.5" y="908.5732">PENALTY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="246.5" y="924.8701">KICKOFF</text><line style="stroke:#181818;stroke-width:0.5;" x1="241.5" x2="355.5" y1="932.1719" y2="932.1719"/></g><!--MD5=[56ae3f0d15f0ff20b4e279acc85c6f70]
+class SetPieceStatus--><g id="elem_SetPieceStatus"><rect codeLine="149" fill="#F1F1F1" height="113.1875" id="SetPieceStatus" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="392" y="786.5"/><ellipse cx="407" cy="802.5" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M411.1094,808.5 L403.3906,808.5 L403.3906,796.1094 L411.1094,796.1094 L411.1094,798.2656 L405.8438,798.2656 L405.8438,800.9375 L410.6094,800.9375 L410.6094,803.0938 L405.8438,803.0938 L405.8438,806.3438 L411.1094,806.3438 L411.1094,808.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="421" y="807.3467">SetPieceStatus</text><line style="stroke:#181818;stroke-width:0.5;" x1="393" x2="528" y1="818.5" y2="818.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="398" y="835.4951">NONE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="398" y="851.792">PREPARING</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="398" y="868.0889">READY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="398" y="884.3857">TAKEN</text><line style="stroke:#181818;stroke-width:0.5;" x1="393" x2="528" y1="891.6875" y2="891.6875"/></g><!--MD5=[9731e85f1a2420b35d546c8dd1cd6cdd]
+class Formation--><g id="elem_Formation"><rect codeLine="156" fill="#F1F1F1" height="162.0781" id="Formation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101" x="1151" y="2571"/><ellipse cx="1166" cy="2587" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1170.1094,2593 L1162.3906,2593 L1162.3906,2580.6094 L1170.1094,2580.6094 L1170.1094,2582.7656 L1164.8438,2582.7656 L1164.8438,2585.4375 L1169.6094,2585.4375 L1169.6094,2587.5938 L1164.8438,2587.5938 L1164.8438,2590.8438 L1170.1094,2590.8438 L1170.1094,2593 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1180" y="2591.8467">Formation</text><line style="stroke:#181818;stroke-width:0.5;" x1="1152" x2="1251" y1="2603" y2="2603"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1157" y="2619.9951">F_4_4_2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1157" y="2636.292">F_4_3_3</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1157" y="2652.5889">F_4_2_3_1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1157" y="2668.8857">F_3_5_2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1157" y="2685.1826">F_5_3_2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1157" y="2701.4795">F_4_5_1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1157" y="2717.7764">F_3_4_3</text><line style="stroke:#181818;stroke-width:0.5;" x1="1152" x2="1251" y1="2725.0781" y2="2725.0781"/></g><!--MD5=[94c7f9372c62fd735ca66cf2c8b73ece]
+class Ball--><g id="elem_Ball"><rect codeLine="167" fill="#F1F1F1" height="259.8594" id="Ball" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="364" x="564.5" y="713"/><ellipse cx="730.25" cy="729" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M733.2188,734.6406 Q732.6406,734.9375 732,735.0781 Q731.3594,735.2344 730.6563,735.2344 Q728.1563,735.2344 726.8281,733.5938 Q725.5156,731.9375 725.5156,728.8125 Q725.5156,725.6875 726.8281,724.0313 Q728.1563,722.375 730.6563,722.375 Q731.3594,722.375 732,722.5313 Q732.6563,722.6875 733.2188,722.9844 L733.2188,725.7031 Q732.5938,725.125 732,724.8594 Q731.4063,724.5781 730.7813,724.5781 Q729.4375,724.5781 728.75,725.6563 Q728.0625,726.7188 728.0625,728.8125 Q728.0625,730.9063 728.75,731.9844 Q729.4375,733.0469 730.7813,733.0469 Q731.4063,733.0469 732,732.7813 Q732.5938,732.5 733.2188,731.9219 L733.2188,734.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="750.75" y="733.8467">Ball</text><line style="stroke:#181818;stroke-width:0.5;" x1="565.5" x2="927.5" y1="745" y2="745"/><ellipse cx="575.5" cy="758.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="584.5" y="761.9951">position: numpy.ndarray</text><ellipse cx="575.5" cy="774.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="584.5" y="778.292">height: float</text><ellipse cx="575.5" cy="791.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="584.5" y="794.5889">velocity: numpy.ndarray</text><ellipse cx="575.5" cy="807.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="584.5" y="810.8857">speed: float</text><ellipse cx="575.5" cy="823.8359" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="584.5" y="827.1826">possession_team: Team</text><ellipse cx="575.5" cy="840.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="584.5" y="843.4795">possession_player: Player</text><ellipse cx="575.5" cy="856.4297" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="584.5" y="859.7764">physical_state: PhysicalState</text><ellipse cx="575.5" cy="872.7266" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="584.5" y="876.0732">action: BallAction</text><ellipse cx="575.5" cy="889.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="584.5" y="892.3701">zone: FieldZone</text><line style="stroke:#181818;stroke-width:0.5;" x1="565.5" x2="927.5" y1="899.6719" y2="899.6719"/><ellipse cx="575.5" cy="913.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="584.5" y="916.667">update_position(dt: float): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="572.5" y="926.6172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="584.5" y="932.9639">_update_zone(): void</text><ellipse cx="575.5" cy="945.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="338" x="584.5" y="949.2607">set_possession(team: Team, player: Player): void</text><ellipse cx="575.5" cy="962.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="584.5" y="965.5576">clear_possession(): void</text></g><!--MD5=[2cb47ba637a0d19583e6199456f6ad0b]
+class Player--><g id="elem_Player"><rect codeLine="183" fill="#F1F1F1" height="602.0938" id="Player" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="373" x="452" y="1050"/><ellipse cx="613.75" cy="1066" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M616.7188,1071.6406 Q616.1406,1071.9375 615.5,1072.0781 Q614.8594,1072.2344 614.1563,1072.2344 Q611.6563,1072.2344 610.3281,1070.5938 Q609.0156,1068.9375 609.0156,1065.8125 Q609.0156,1062.6875 610.3281,1061.0313 Q611.6563,1059.375 614.1563,1059.375 Q614.8594,1059.375 615.5,1059.5313 Q616.1563,1059.6875 616.7188,1059.9844 L616.7188,1062.7031 Q616.0938,1062.125 615.5,1061.8594 Q614.9063,1061.5781 614.2813,1061.5781 Q612.9375,1061.5781 612.25,1062.6563 Q611.5625,1063.7188 611.5625,1065.8125 Q611.5625,1067.9063 612.25,1068.9844 Q612.9375,1070.0469 614.2813,1070.0469 Q614.9063,1070.0469 615.5,1069.7813 Q616.0938,1069.5 616.7188,1068.9219 L616.7188,1071.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="634.25" y="1070.8467">Player</text><line style="stroke:#181818;stroke-width:0.5;" x1="453" x2="824" y1="1082" y2="1082"/><ellipse cx="463" cy="1095.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="472" y="1098.9951">player_id: str</text><ellipse cx="463" cy="1111.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="472" y="1115.292">name: str</text><ellipse cx="463" cy="1128.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="472" y="1131.5889">assigned_position: PlayingPosition</text><ellipse cx="463" cy="1144.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="472" y="1147.8857">team: Team</text><ellipse cx="463" cy="1160.8359" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="472" y="1164.1826">attributes: Dict[str, float]</text><ellipse cx="463" cy="1177.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="472" y="1180.4795">position: numpy.ndarray</text><ellipse cx="463" cy="1193.4297" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="472" y="1196.7764">orientation: float</text><ellipse cx="463" cy="1209.7266" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="472" y="1213.0732">velocity: numpy.ndarray</text><ellipse cx="463" cy="1226.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="472" y="1229.3701">speed: float</text><ellipse cx="463" cy="1242.3203" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="472" y="1245.667">acceleration: numpy.ndarray</text><ellipse cx="463" cy="1258.6172" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="472" y="1261.9639">has_ball: bool</text><ellipse cx="463" cy="1274.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="472" y="1278.2607">distance_to_ball: float</text><ellipse cx="463" cy="1291.2109" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="472" y="1294.5576">current_action: PlayerAction</text><ellipse cx="463" cy="1307.5078" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="472" y="1310.8545">action_phase: ActionPhase</text><ellipse cx="463" cy="1323.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="472" y="1327.1514">action_target: Any</text><ellipse cx="463" cy="1340.1016" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="472" y="1343.4482">action_timer: float</text><ellipse cx="463" cy="1356.3984" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="472" y="1359.7451">available_for_action: bool</text><ellipse cx="463" cy="1372.6953" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="472" y="1376.042">current_zone: FieldZone</text><ellipse cx="463" cy="1388.9922" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="472" y="1392.3389">marking_assignment: Player</text><ellipse cx="463" cy="1405.2891" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="472" y="1408.6357">formation_position: Any</text><ellipse cx="463" cy="1421.5859" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="472" y="1424.9326">current_stamina: float</text><ellipse cx="463" cy="1437.8828" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="472" y="1441.2295">fatigue: float</text><ellipse cx="463" cy="1454.1797" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="472" y="1457.5264">injury_status: InjuryStatus</text><ellipse cx="463" cy="1470.4766" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="472" y="1473.8232">sprint_available: bool</text><ellipse cx="463" cy="1486.7734" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="472" y="1490.1201">yellow_cards: int</text><ellipse cx="463" cy="1503.0703" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="472" y="1506.417">red_card: bool</text><line style="stroke:#181818;stroke-width:0.5;" x1="453" x2="824" y1="1513.7188" y2="1513.7188"/><ellipse cx="463" cy="1527.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="472" y="1530.7139">update_distance_to_ball(dis: float): void</text><ellipse cx="463" cy="1543.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="472" y="1547.0107">update_position(dt: float): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460" y="1556.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="472" y="1563.3076">_update_zone(): void</text><ellipse cx="463" cy="1576.2578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="347" x="472" y="1579.6045">start_action(action: PlayerAction, target: Any): bool</text><ellipse cx="463" cy="1592.5547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="472" y="1595.9014">update_action(dt: float): void</text><ellipse cx="463" cy="1608.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="472" y="1612.1982">reduce_stamina(amount: float): void</text><ellipse cx="463" cy="1625.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="472" y="1628.4951">recover_stamina(amount: float): void</text><ellipse cx="463" cy="1641.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="472" y="1644.792">is_available(): bool</text></g><!--MD5=[dfb0845b8492ffe07b1ce50e003034d7]
+class Team--><g id="elem_Team"><rect codeLine="220" fill="#F1F1F1" height="373.9375" id="Team" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="441" x="890" y="1932.5"/><ellipse cx="1086.75" cy="1948.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1089.7188,1954.1406 Q1089.1406,1954.4375 1088.5,1954.5781 Q1087.8594,1954.7344 1087.1563,1954.7344 Q1084.6563,1954.7344 1083.3281,1953.0938 Q1082.0156,1951.4375 1082.0156,1948.3125 Q1082.0156,1945.1875 1083.3281,1943.5313 Q1084.6563,1941.875 1087.1563,1941.875 Q1087.8594,1941.875 1088.5,1942.0313 Q1089.1563,1942.1875 1089.7188,1942.4844 L1089.7188,1945.2031 Q1089.0938,1944.625 1088.5,1944.3594 Q1087.9063,1944.0781 1087.2813,1944.0781 Q1085.9375,1944.0781 1085.25,1945.1563 Q1084.5625,1946.2188 1084.5625,1948.3125 Q1084.5625,1950.4063 1085.25,1951.4844 Q1085.9375,1952.5469 1087.2813,1952.5469 Q1087.9063,1952.5469 1088.5,1952.2813 Q1089.0938,1952 1089.7188,1951.4219 L1089.7188,1954.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="1107.25" y="1953.3467">Team</text><line style="stroke:#181818;stroke-width:0.5;" x1="891" x2="1330" y1="1964.5" y2="1964.5"/><ellipse cx="901" cy="1978.1484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="910" y="1981.4951">team_id: str</text><ellipse cx="901" cy="1994.4453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="910" y="1997.792">name: str</text><ellipse cx="901" cy="2010.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="910" y="2014.0889">possession: bool</text><ellipse cx="901" cy="2027.0391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="910" y="2030.3857">goals_scored: int</text><ellipse cx="901" cy="2043.3359" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="910" y="2046.6826">goals_conceded: int</text><ellipse cx="901" cy="2059.6328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="910" y="2062.9795">players: List[Player]</text><ellipse cx="901" cy="2075.9297" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="910" y="2079.2764">lineup: List[Player]</text><ellipse cx="901" cy="2092.2266" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="910" y="2095.5732">bench: List[Player]</text><ellipse cx="901" cy="2108.5234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="910" y="2111.8701">captain: Player</text><ellipse cx="901" cy="2124.8203" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="910" y="2128.167">formation: Formation</text><ellipse cx="901" cy="2141.1172" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="910" y="2144.4639">phase: TeamPhase</text><ellipse cx="901" cy="2157.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="910" y="2160.7607">tactics: Dict[str, Any]</text><ellipse cx="901" cy="2173.7109" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="910" y="2177.0576">substitutions_made: int</text><ellipse cx="901" cy="2190.0078" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="910" y="2193.3545">substitutions_available: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="891" x2="1330" y1="2200.6563" y2="2200.6563"/><ellipse cx="901" cy="2214.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="910" y="2217.6514">add_player(player: Player): void</text><ellipse cx="901" cy="2230.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="326" x="910" y="2233.9482">select_lineup(starting_eleven: List[Player]): void</text><ellipse cx="901" cy="2246.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="284" x="910" y="2250.2451">set_formation(formation: Formation): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="898" y="2260.1953"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="910" y="2266.542">_position_players(): void</text><ellipse cx="901" cy="2279.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="415" x="910" y="2282.8389">make_substitution(player_off: Player, player_on: Player): bool</text><ellipse cx="901" cy="2295.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="910" y="2299.1357">update_tactics(**kwargs): void</text></g><!--MD5=[5f0899136ed8f523b18ed05779c24112]
+class Match--><g id="elem_Match"><rect codeLine="243" fill="#F1F1F1" height="259.8594" id="Match" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="546" x="473.5" y="376"/><ellipse cx="721.25" cy="392" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M724.2188,397.6406 Q723.6406,397.9375 723,398.0781 Q722.3594,398.2344 721.6563,398.2344 Q719.1563,398.2344 717.8281,396.5938 Q716.5156,394.9375 716.5156,391.8125 Q716.5156,388.6875 717.8281,387.0313 Q719.1563,385.375 721.6563,385.375 Q722.3594,385.375 723,385.5313 Q723.6563,385.6875 724.2188,385.9844 L724.2188,388.7031 Q723.5938,388.125 723,387.8594 Q722.4063,387.5781 721.7813,387.5781 Q720.4375,387.5781 719.75,388.6563 Q719.0625,389.7188 719.0625,391.8125 Q719.0625,393.9063 719.75,394.9844 Q720.4375,396.0469 721.7813,396.0469 Q722.4063,396.0469 723,395.7813 Q723.5938,395.5 724.2188,394.9219 L724.2188,397.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="741.75" y="396.8467">Match</text><line style="stroke:#181818;stroke-width:0.5;" x1="474.5" x2="1018.5" y1="408" y2="408"/><ellipse cx="484.5" cy="421.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="493.5" y="424.9951">home_team: Team</text><ellipse cx="484.5" cy="437.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="493.5" y="441.292">away_team: Team</text><ellipse cx="484.5" cy="454.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="493.5" y="457.5889">ball: Ball</text><ellipse cx="484.5" cy="470.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="493.5" y="473.8857">clock: float</text><ellipse cx="484.5" cy="486.8359" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="493.5" y="490.1826">period: MatchPeriod</text><ellipse cx="484.5" cy="503.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="493.5" y="506.4795">game_phase: GamePhase</text><ellipse cx="484.5" cy="519.4297" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="493.5" y="522.7764">set_piece_status: SetPieceStatus</text><ellipse cx="484.5" cy="535.7266" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="493.5" y="539.0732">team_in_possession: Team</text><ellipse cx="484.5" cy="552.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="493.5" y="555.3701">events: List[Dict]</text><line style="stroke:#181818;stroke-width:0.5;" x1="474.5" x2="1018.5" y1="562.6719" y2="562.6719"/><ellipse cx="484.5" cy="576.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="493.5" y="579.667">get_current_minute(): int</text><ellipse cx="484.5" cy="592.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="493.5" y="595.9639">advance_time(dt: float): void</text><ellipse cx="484.5" cy="608.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="360" x="493.5" y="612.2607">switch_possession(team: Team, player: Player): void</text><ellipse cx="484.5" cy="625.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="520" x="493.5" y="628.5576">record_event(event_type: str, player: Player, team: Team, details: Dict): void</text></g><!--MD5=[982e747280c54c931efc163dd789fd75]
+class SimpleMatchSimulator--><g id="elem_SimpleMatchSimulator"><rect codeLine="259" fill="#F1F1F1" height="292.4531" id="SimpleMatchSimulator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="330" x="581.5" y="7"/><ellipse cx="666.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M669.2188,28.6406 Q668.6406,28.9375 668,29.0781 Q667.3594,29.2344 666.6563,29.2344 Q664.1563,29.2344 662.8281,27.5938 Q661.5156,25.9375 661.5156,22.8125 Q661.5156,19.6875 662.8281,18.0313 Q664.1563,16.375 666.6563,16.375 Q667.3594,16.375 668,16.5313 Q668.6563,16.6875 669.2188,16.9844 L669.2188,19.7031 Q668.5938,19.125 668,18.8594 Q667.4063,18.5781 666.7813,18.5781 Q665.4375,18.5781 664.75,19.6563 Q664.0625,20.7188 664.0625,22.8125 Q664.0625,24.9063 664.75,25.9844 Q665.4375,27.0469 666.7813,27.0469 Q667.4063,27.0469 668,26.7813 Q668.5938,26.5 669.2188,25.9219 L669.2188,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="686.75" y="27.8467">SimpleMatchSimulator</text><line style="stroke:#181818;stroke-width:0.5;" x1="582.5" x2="910.5" y1="39" y2="39"/><ellipse cx="592.5" cy="52.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="601.5" y="55.9951">match: Match</text><ellipse cx="592.5" cy="68.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="601.5" y="72.292">env: simpy.Environment</text><ellipse cx="592.5" cy="85.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="601.5" y="88.5889">time_step: float</text><line style="stroke:#181818;stroke-width:0.5;" x1="582.5" x2="910.5" y1="95.8906" y2="95.8906"/><ellipse cx="592.5" cy="109.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="601.5" y="112.8857">setup(): void</text><ellipse cx="592.5" cy="125.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="601.5" y="129.1826">run(until: float): void</text><ellipse cx="592.5" cy="142.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="601.5" y="145.4795">match_process(): Generator</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="155.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="601.5" y="161.7764">_check_period_transitions(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="171.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="601.5" y="178.0732">_update_players(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="188.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="304" x="601.5" y="194.3701">_update_player_position(player: Player): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="204.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="303" x="601.5" y="210.667">_update_player_stamina(player: Player): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="220.6172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="601.5" y="226.9639">_player_decision(player: Player): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="236.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="601.5" y="243.2607">_update_ball(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="253.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="601.5" y="259.5576">_process_events(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="269.5078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="601.5" y="275.8545">_check_for_goals(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="589.5" y="285.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="298" x="601.5" y="292.1514">_reset_after_goal(kickoff_team: Team): void</text></g><!--MD5=[547108e20ff8a778761690317e01a0e5]
+class ActionOutcomePredictor--><g id="elem_ActionOutcomePredictor"><rect codeLine="277" fill="#F1F1F1" height="194.6719" id="ActionOutcomePredictor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="690" x="949.5" y="55.5"/><ellipse cx="1205.75" cy="71.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1208.7188,77.1406 Q1208.1406,77.4375 1207.5,77.5781 Q1206.8594,77.7344 1206.1563,77.7344 Q1203.6563,77.7344 1202.3281,76.0938 Q1201.0156,74.4375 1201.0156,71.3125 Q1201.0156,68.1875 1202.3281,66.5313 Q1203.6563,64.875 1206.1563,64.875 Q1206.8594,64.875 1207.5,65.0313 Q1208.1563,65.1875 1208.7188,65.4844 L1208.7188,68.2031 Q1208.0938,67.625 1207.5,67.3594 Q1206.9063,67.0781 1206.2813,67.0781 Q1204.9375,67.0781 1204.25,68.1563 Q1203.5625,69.2188 1203.5625,71.3125 Q1203.5625,73.4063 1204.25,74.4844 Q1204.9375,75.5469 1206.2813,75.5469 Q1206.9063,75.5469 1207.5,75.2813 Q1208.0938,75 1208.7188,74.4219 L1208.7188,77.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="1226.25" y="76.3467">ActionOutcomePredictor</text><line style="stroke:#181818;stroke-width:0.5;" x1="950.5" x2="1638.5" y1="87.5" y2="87.5"/><ellipse cx="960.5" cy="101.1484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="291" x="969.5" y="104.4951">base_probabilities: Dict[PlayerAction, float]</text><line style="stroke:#181818;stroke-width:0.5;" x1="950.5" x2="1638.5" y1="111.7969" y2="111.7969"/><ellipse cx="960.5" cy="125.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="492" x="969.5" y="128.792">predict_success(action: PlayerAction, player: Player, context: Dict): bool</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="957.5" y="138.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="439" x="969.5" y="145.0889">_get_attribute_modifier(action: PlayerAction, player: Player): float</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="957.5" y="155.0391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="430" x="969.5" y="161.3857">_get_context_modifier(action: PlayerAction, context: Dict): float</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="957.5" y="171.3359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="292" x="969.5" y="177.6826">_get_stamina_modifier(player: Player): float</text><ellipse cx="960.5" cy="190.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="656" x="969.5" y="193.9795">predict_pass_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]</text><ellipse cx="960.5" cy="206.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="507" x="969.5" y="210.2764">predict_shot_outcome(player: Player, match: Match): Tuple[bool, str, Dict]</text><ellipse cx="960.5" cy="223.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="664" x="969.5" y="226.5732">predict_tackle_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]</text><ellipse cx="960.5" cy="239.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="523" x="969.5" y="242.8701">predict_dribble_outcome(player: Player, match: Match): Tuple[bool, str, Dict]</text></g><!--MD5=[7911870ce62b9b2be5ad77d6ef61ea60]
+class PlayerDecisionModel--><g id="elem_PlayerDecisionModel"><rect codeLine="289" fill="#F1F1F1" height="145.7813" id="PlayerDecisionModel" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="486" x="1054.5" y="433"/><ellipse cx="1221.75" cy="449" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1224.7188,454.6406 Q1224.1406,454.9375 1223.5,455.0781 Q1222.8594,455.2344 1222.1563,455.2344 Q1219.6563,455.2344 1218.3281,453.5938 Q1217.0156,451.9375 1217.0156,448.8125 Q1217.0156,445.6875 1218.3281,444.0313 Q1219.6563,442.375 1222.1563,442.375 Q1222.8594,442.375 1223.5,442.5313 Q1224.1563,442.6875 1224.7188,442.9844 L1224.7188,445.7031 Q1224.0938,445.125 1223.5,444.8594 Q1222.9063,444.5781 1222.2813,444.5781 Q1220.9375,444.5781 1220.25,445.6563 Q1219.5625,446.7188 1219.5625,448.8125 Q1219.5625,450.9063 1220.25,451.9844 Q1220.9375,453.0469 1222.2813,453.0469 Q1222.9063,453.0469 1223.5,452.7813 Q1224.0938,452.5 1224.7188,451.9219 L1224.7188,454.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="1242.25" y="453.8467">PlayerDecisionModel</text><line style="stroke:#181818;stroke-width:0.5;" x1="1055.5" x2="1539.5" y1="465" y2="465"/><ellipse cx="1065.5" cy="478.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1074.5" y="481.9951">model: Any</text><ellipse cx="1065.5" cy="494.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1074.5" y="498.292">feature_scaler: Any</text><ellipse cx="1065.5" cy="511.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1074.5" y="514.5889">action_mapping: Dict</text><line style="stroke:#181818;stroke-width:0.5;" x1="1055.5" x2="1539.5" y1="521.8906" y2="521.8906"/><ellipse cx="1065.5" cy="535.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="393" x="1074.5" y="538.8857">predict_action(player: Player, match: Match): PlayerAction</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1062.5" y="548.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="432" x="1074.5" y="555.1826">_extract_features(player: Player, match: Match): numpy.ndarray</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1062.5" y="565.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="460" x="1074.5" y="571.4795">_placeholder_prediction(player: Player, match: Match): PlayerAction</text></g><!--MD5=[aa9b842f3c8ba188a250305e4e2be139]
+class PlayerDecisionTrainer--><g id="elem_PlayerDecisionTrainer"><rect codeLine="298" fill="#F1F1F1" height="243.5625" id="PlayerDecisionTrainer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="276" x="2132.5" y="31"/><ellipse cx="2191.75" cy="47" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2194.7188,52.6406 Q2194.1406,52.9375 2193.5,53.0781 Q2192.8594,53.2344 2192.1563,53.2344 Q2189.6563,53.2344 2188.3281,51.5938 Q2187.0156,49.9375 2187.0156,46.8125 Q2187.0156,43.6875 2188.3281,42.0313 Q2189.6563,40.375 2192.1563,40.375 Q2192.8594,40.375 2193.5,40.5313 Q2194.1563,40.6875 2194.7188,40.9844 L2194.7188,43.7031 Q2194.0938,43.125 2193.5,42.8594 Q2192.9063,42.5781 2192.2813,42.5781 Q2190.9375,42.5781 2190.25,43.6563 Q2189.5625,44.7188 2189.5625,46.8125 Q2189.5625,48.9063 2190.25,49.9844 Q2190.9375,51.0469 2192.2813,51.0469 Q2192.9063,51.0469 2193.5,50.7813 Q2194.0938,50.5 2194.7188,49.9219 L2194.7188,52.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="2212.25" y="51.8467">PlayerDecisionTrainer</text><line style="stroke:#181818;stroke-width:0.5;" x1="2133.5" x2="2407.5" y1="63" y2="63"/><ellipse cx="2143.5" cy="76.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="2152.5" y="79.9951">model_type: str</text><ellipse cx="2143.5" cy="92.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="2152.5" y="96.292">training_data: List</text><ellipse cx="2143.5" cy="109.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="2152.5" y="112.5889">feature_columns: List</text><ellipse cx="2143.5" cy="125.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="2152.5" y="128.8857">label_column: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="2133.5" x2="2407.5" y1="136.1875" y2="136.1875"/><ellipse cx="2143.5" cy="149.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="2152.5" y="153.1826">collect_data(data_source: str): void</text><ellipse cx="2143.5" cy="166.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="2152.5" y="169.4795">preprocess_data(): void</text><ellipse cx="2143.5" cy="182.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="2152.5" y="185.7764">train_model(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2140.5" y="195.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="2152.5" y="202.0732">_train_random_forest(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2140.5" y="212.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="2152.5" y="218.3701">_train_neural_network(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2140.5" y="228.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="250" x="2152.5" y="234.667">_train_reinforcement_learning(): void</text><ellipse cx="2143.5" cy="247.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="2152.5" y="250.9639">evaluate_model(): void</text><ellipse cx="2143.5" cy="263.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="2152.5" y="267.2607">save_model(filepath: str): void</text></g><!--MD5=[87851aff569e8cf13f5a83ac0bf92be3]
+class FeatureExtractor--><g id="elem_FeatureExtractor"><rect codeLine="313" fill="#F1F1F1" height="178.375" id="FeatureExtractor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="632" x="1575.5" y="417"/><ellipse cx="1830.25" cy="433" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1833.2188,438.6406 Q1832.6406,438.9375 1832,439.0781 Q1831.3594,439.2344 1830.6563,439.2344 Q1828.1563,439.2344 1826.8281,437.5938 Q1825.5156,435.9375 1825.5156,432.8125 Q1825.5156,429.6875 1826.8281,428.0313 Q1828.1563,426.375 1830.6563,426.375 Q1831.3594,426.375 1832,426.5313 Q1832.6563,426.6875 1833.2188,426.9844 L1833.2188,429.7031 Q1832.5938,429.125 1832,428.8594 Q1831.4063,428.5781 1830.7813,428.5781 Q1829.4375,428.5781 1828.75,429.6563 Q1828.0625,430.7188 1828.0625,432.8125 Q1828.0625,434.9063 1828.75,435.9844 Q1829.4375,437.0469 1830.7813,437.0469 Q1831.4063,437.0469 1832,436.7813 Q1832.5938,436.5 1833.2188,435.9219 L1833.2188,438.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1850.75" y="437.8467">FeatureExtractor</text><line style="stroke:#181818;stroke-width:0.5;" x1="1576.5" x2="2206.5" y1="449" y2="449"/><ellipse cx="1586.5" cy="462.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1595.5" y="465.9951">spatial_grid_size: int</text><ellipse cx="1586.5" cy="478.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="1595.5" y="482.292">use_relative_positions: bool</text><ellipse cx="1586.5" cy="495.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="221" x="1595.5" y="498.5889">include_historical_features: bool</text><ellipse cx="1586.5" cy="511.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="1595.5" y="514.8857">feature_history_length: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="1576.5" x2="2206.5" y1="522.1875" y2="522.1875"/><ellipse cx="1586.5" cy="535.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="361" x="1595.5" y="539.1826">extract_player_features(player: Player): Dict[str, float]</text><ellipse cx="1586.5" cy="552.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="466" x="1595.5" y="555.4795">extract_spatial_features(player: Player, match: Match): Dict[str, float]</text><ellipse cx="1586.5" cy="568.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="470" x="1595.5" y="571.7764">extract_tactical_features(player: Player, match: Match): Dict[str, float]</text><ellipse cx="1586.5" cy="584.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="606" x="1595.5" y="588.0732">extract_temporal_features(player: Player, match: Match, history: List[Dict]): Dict[str, float]</text></g><!--MD5=[19fd7adf7827715f17da61bc3412038c]
+class AIPlayerDecisionSystem--><g id="elem_AIPlayerDecisionSystem"><rect codeLine="324" fill="#F1F1F1" height="145.7813" id="AIPlayerDecisionSystem" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="418" x="1679.5" y="80"/><ellipse cx="1802.25" cy="96" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1805.2188,101.6406 Q1804.6406,101.9375 1804,102.0781 Q1803.3594,102.2344 1802.6563,102.2344 Q1800.1563,102.2344 1798.8281,100.5938 Q1797.5156,98.9375 1797.5156,95.8125 Q1797.5156,92.6875 1798.8281,91.0313 Q1800.1563,89.375 1802.6563,89.375 Q1803.3594,89.375 1804,89.5313 Q1804.6563,89.6875 1805.2188,89.9844 L1805.2188,92.7031 Q1804.5938,92.125 1804,91.8594 Q1803.4063,91.5781 1802.7813,91.5781 Q1801.4375,91.5781 1800.75,92.6563 Q1800.0625,93.7188 1800.0625,95.8125 Q1800.0625,97.9063 1800.75,98.9844 Q1801.4375,100.0469 1802.7813,100.0469 Q1803.4063,100.0469 1804,99.7813 Q1804.5938,99.5 1805.2188,98.9219 L1805.2188,101.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="1822.75" y="100.8467">AIPlayerDecisionSystem</text><line style="stroke:#181818;stroke-width:0.5;" x1="1680.5" x2="2096.5" y1="112" y2="112"/><ellipse cx="1690.5" cy="125.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="1699.5" y="128.9951">decision_model: PlayerDecisionModel</text><ellipse cx="1690.5" cy="141.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="240" x="1699.5" y="145.292">feature_extractor: FeatureExtractor</text><ellipse cx="1690.5" cy="158.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="1699.5" y="161.5889">state_history: Dict[str, List[Dict]]</text><line style="stroke:#181818;stroke-width:0.5;" x1="1680.5" x2="2096.5" y1="168.8906" y2="168.8906"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1687.5" y="179.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="1699.5" y="185.8857">_load_model(model_path: str): void</text><ellipse cx="1690.5" cy="198.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="392" x="1699.5" y="202.1826">decide_action(player: Player, match: Match): PlayerAction</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1687.5" y="212.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="349" x="1699.5" y="218.4795">_update_history(player: Player, match: Match): void</text></g><!--MD5=[ae8e3d9489416fade48e2abd6e925d9f]
+link Ball to Player--><g id="link_Ball_Player"><path codeLine="334" d="M718.9,973.32 C713.8,997.19 708.3,1023 702.63,1049.53 " fill="none" id="Ball-Player" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="716.4561,1016.4562,721.2187,1008.2241,715.4704,1006.9969,716.4561,1016.4562" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="726.5" y="1016.0669">possession</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="709.1719" y="992.9314">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="679.8518" y="1039.3559">0..1</text></g><!--MD5=[35fd51bd24ef21fbeb6481cbf66cbf21]
+link Ball to Team--><g id="link_Ball_Team"><path codeLine="335" d="M876.58,973.09 C895.38,997.13 912.67,1023.18 925.5,1050 C944.41,1089.53 1033.67,1636.75 1080.95,1932.27 " fill="none" id="Ball-Team" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="1039.5419,1355.9566,1040.5315,1346.4977,1034.7826,1347.7226,1039.5419,1355.9566" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="1047.5" y="1355.5669">possession</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="875.869" y="993.1192">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="1055.327" y="1921.7341">0..1</text></g><!--MD5=[3e4705e52f6ea3a36b44a21a43aec0e0]
+link Player to Team--><g id="link_Player_Team"><path codeLine="337" d="M606.84,1652.09 C613.69,1669.03 623.05,1684.88 635.5,1699 C670.6,1738.83 827.92,1700.17 872.5,1729 C942.86,1774.51 995.7,1848.87 1033.49,1920.49 " fill="none" id="Player-to-Team" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1039.66,1932.42,1040.4489,1925.2522,1034.1358,1921.7671,1033.347,1928.935,1039.66,1932.42" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="644.7322,1693.2288,638.641,1685.9248,635.5111,1690.9001,644.7322,1693.2288" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="649.5" y="1695.0669">belongs to</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="574.5873" y="1672.3543">11..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1036.8402" y="1921.2822">1</text></g><!--MD5=[f6131654d5bae01bf523e6b09ccedc4c]
+link Team to Player--><g id="link_Team_Player"><path codeLine="340" d="M1034.19,1932.4 C995.66,1859.29 942.09,1780.67 872.5,1729 C830.09,1697.51 796.23,1734.92 757.5,1699 C745.83,1688.17 735.3,1676.15 725.8,1663.27 " fill="none" id="Team-to-Player" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="718.07,1652.26,718.2481,1659.4689,724.971,1662.0771,724.7929,1654.8682,718.07,1652.26" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="758.7328,1687.2788,763.6153,1695.4404,767.4801,1691.0118,758.7328,1687.2788" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="771.5" y="1695.0669">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1022.8019" y="1921.2613">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="688.7719" y="1672.5289">11..*</text></g><!--MD5=[f6131654d5bae01bf523e6b09ccedc4c]
+link Team to Player--><g id="link_Team_Player"><path codeLine="341" d="M1014.11,1932.25 C974.81,1864.74 926,1790.12 872.5,1729 C858.56,1713.07 849.19,1715.15 835.5,1699 C825.7,1687.44 816.14,1675.32 806.85,1662.82 " fill="none" id="Team-to-Player-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="799.11,1652.24,799.4262,1659.4442,806.1978,1661.9231,805.8816,1654.719,799.11,1652.24" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="837.4514,1686.6033,840.6369,1695.5645,845.2958,1691.9807,837.4514,1686.6033" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="849.5" y="1695.0669">lineup</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1002.1885" y="1921.7133">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="770.9512" y="1672.5083">0..11</text></g><!--MD5=[f6131654d5bae01bf523e6b09ccedc4c]
+link Team to Player--><g id="link_Team_Player"><path codeLine="342" d="M1027.31,1932.37 C989.49,1853.29 942.13,1761.23 892.5,1682 C874.21,1652.81 853.93,1623.05 833.04,1593.95 " fill="none" id="Team-to-Player-2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="825.32,1583.26,825.5902,1590.466,832.3459,1592.9882,832.0757,1585.7821,825.32,1583.26" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="902.0107,1686.2301,903.965,1695.5377,909.0627,1692.6114,902.0107,1686.2301" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="913.5" y="1695.0669">bench</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1015.6317" y="1921.2301">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="833.0669" y="1589.1073">0..*</text></g><!--MD5=[f6131654d5bae01bf523e6b09ccedc4c]
+link Team to Player--><g id="link_Team_Player"><path codeLine="343" d="M1066.81,1932.31 C1042.99,1851.68 1008.57,1758.46 961.5,1682 C926.73,1625.52 880.7,1571.08 834.31,1523.26 " fill="none" id="Team-to-Player-3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="825.04,1513.78,826.3772,1520.866,833.4324,1522.3571,832.0953,1515.2711,825.04,1513.78" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="971.0293,1686.2195,972.9438,1695.5354,978.0539,1692.6309,971.0293,1686.2195" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="982.5" y="1695.0669">captain</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1056.7981" y="1921.1675">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="833.0784" y="1517.3986">1</text></g><!--MD5=[c80d6f46dd55879b61f1c1f17c47dc38]
+link Player to Player--><g id="link_Player_Player"><path codeLine="338" d="M825.14,1297.3 C846.29,1307.35 860,1325.25 860,1351 C860,1376.75 846.29,1394.65 825.14,1404.7 " fill="none" id="Player-Player" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="867.1459,1355.5825,865.9184,1346.1515,860.6094,1348.6742,867.1459,1355.5825" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="879" y="1355.5669">marks</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="833.1826" y="1291.7858">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="832.8994" y="1403.5723">0..1</text></g><!--MD5=[6d9428d8d0d58428c118569d1aece496]
+link Match to Ball--><g id="link_Match_Ball"><path codeLine="345" d="M746.5,636.04 C746.5,656.88 746.5,678.55 746.5,699.68 " fill="none" id="Match-to-Ball" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="746.5,712.75,750.5,706.75,746.5,700.75,742.5,706.75,746.5,712.75" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="751.5,679.5664,754.4389,670.5213,748.5611,670.5213,751.5,679.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="760.5" y="679.0669">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="738.2688" y="656.0663">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="738.2688" y="701.8611">1</text></g><!--MD5=[61a40643b286db522194e92c20bd3588]
+link Match to Team--><g id="link_Match_Team"><path codeLine="346" d="M883.85,636.18 C905.97,660.5 927.48,686.62 945.5,713 C1030.2,836.98 991.53,903.71 1086.5,1020 C1100.78,1037.49 1117.28,1029.86 1127.5,1050 C1201.94,1196.71 1165.08,1652.93 1135.41,1919.43 " fill="none" id="Match-to-Team" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1133.96,1932.37,1138.6075,1926.8563,1135.3054,1920.4457,1130.6579,1925.9594,1133.96,1932.37" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="1092.4619,1016.473,1093.6059,1007.0315,1087.8378,1008.1622,1092.4619,1016.473" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="1100.5" y="1016.0669">home_team</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="883.1426" y="655.7837">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1126.781" y="1921.2301">1</text></g><!--MD5=[61a40643b286db522194e92c20bd3588]
+link Match to Team--><g id="link_Match_Team"><path codeLine="347" d="M944.61,636.17 C973.6,659.77 1001.67,685.65 1025.5,713 C1121.93,823.65 1147.27,860.77 1183.5,1003 C1263.22,1315.94 1208.46,1693.34 1160.37,1919.2 " fill="none" id="Match-to-Team-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1157.58,1932.18,1162.7499,1927.1529,1160.098,1920.4471,1154.928,1925.4743,1157.58,1932.18" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="1192.3292,1016.4972,1193.7274,1007.09,1187.9309,1008.0647,1192.3292,1016.4972" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="1200.5" y="1016.0669">away_team</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="947.2254" y="655.7732">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1151.2628" y="1921.6406">1</text></g><!--MD5=[61a40643b286db522194e92c20bd3588]
+link Match to Team--><g id="link_Match_Team"><path codeLine="348" d="M1019.72,629.51 C1058.21,653.8 1095.24,681.64 1126.5,713 C1229.82,816.65 1246.75,861.08 1282.5,1003 C1362.07,1318.87 1265.78,1694.87 1188.47,1919.73 " fill="none" id="Match-to-Team-2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1184.1,1932.32,1189.844,1927.9604,1188.0289,1920.9814,1182.2849,1925.3411,1184.1,1932.32" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="1291.1484,1016.5242,1292.8895,1007.1743,1287.0613,1007.9366,1291.1484,1016.5242" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="1299.5" y="1016.0669">team_in_possession</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1027.0837" y="629.662">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="1162.6988" y="1921.178">0..1</text></g><!--MD5=[61bad7068734f81f42917c84be5c58c8]
+link SimpleMatchSimulator to Match--><g id="link_SimpleMatchSimulator_Match"><path codeLine="350" d="M746.5,299.05 C746.5,320.14 746.5,341.85 746.5,362.89 " fill="none" id="SimpleMatchSimulator-to-Match" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="746.5,375.89,750.5,369.89,746.5,363.89,742.5,369.89,746.5,375.89" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="751.5,342.5664,754.4389,333.5213,748.5611,333.5213,751.5,342.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="760.5" y="342.0669">simulates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="738.2813" y="319.5054">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="738.2688" y="365.0092">1</text></g><!--MD5=[1b63ad2a2041c5804d791053c3bc743e]
+link AIPlayerDecisionSystem to PlayerDecisionModel--><g id="link_AIPlayerDecisionSystem_PlayerDecisionModel"><path codeLine="352" d="M1775.15,226.03 C1737.58,249.59 1695.41,275.69 1656.5,299 C1584.68,342.03 1503.87,388.56 1437.14,426.49 " fill="none" id="AIPlayerDecisionSystem-to-PlayerDecisionModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1425.7,432.99,1432.8926,433.5067,1436.1359,427.0662,1428.9434,426.5495,1425.7,432.99" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="1599.1994,340.1169,1608.4784,338.0308,1605.4801,332.9752,1599.1994,340.1169" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="1612.5" y="342.0669">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1755.9651" y="245.7892">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1430.5081" y="421.7724">1</text></g><!--MD5=[e9d8394e28df7151a09aeabdd15c2f32]
+link AIPlayerDecisionSystem to FeatureExtractor--><g id="link_AIPlayerDecisionSystem_FeatureExtractor"><path codeLine="353" d="M1889.12,226.3 C1889.56,277.6 1890.15,347.13 1890.64,403.91 " fill="none" id="AIPlayerDecisionSystem-to-FeatureExtractor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1890.75,416.93,1894.6971,410.8951,1890.6445,404.9305,1886.6974,410.9654,1890.75,416.93" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="1895.5428,342.5662,1898.4042,333.4963,1892.5266,333.5466,1895.5428,342.5662" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="1904.5" y="342.0669">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1880.8084" y="245.8318">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1882.3566" y="405.9897">1</text></g><!--MD5=[787499d8fb28bfd69fa56577a967f079]
+link Ball to PhysicalState--><g id="link_Ball_PhysicalState"><path codeLine="356" d="M564.24,965.94 C558.34,968.47 552.42,970.84 546.5,973 C394.88,1028.47 299.36,929.87 191.5,1050 C135.19,1112.72 118.2,1210.87 113.5,1277.69 " fill="none" id="Ball-PhysicalState" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[52db455e72892f70b6b4b560cb156a5a]
+link Ball to BallAction--><g id="link_Ball_BallAction"><path codeLine="357" d="M564.5,965.71 C558.51,968.32 552.5,970.76 546.5,973 C457.75,1006.11 405.01,938.65 335.5,1003 C269.84,1063.78 253.86,1167.03 252.34,1245.14 " fill="none" id="Ball-BallAction" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1e0748e840d8ba97c327debc982ea19f]
+link Ball to FieldZone--><g id="link_Ball_FieldZone"><path codeLine="358" d="M564.22,962.32 C497.3,1006.13 437.01,1046.2 434.5,1050 C284.77,1276.96 490.2,1435.65 325.5,1652 C277.7,1714.79 214.64,1667.25 165.5,1729 C99.12,1812.4 80.73,1936.12 76.63,2021.64 " fill="none" id="Ball-FieldZone" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dfcc45f7c46438091cb1db5562cbe870]
+link Player to PlayingPosition--><g id="link_Player_PlayingPosition"><path codeLine="360" d="M565.4,1652.3 C563.94,1662.29 562.63,1672.21 561.5,1682 C549.55,1785.77 570.62,1902.48 593,1989.09 " fill="none" id="Player-PlayingPosition" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5603568eddea525ca1c8be5efc8215c]
+link Player to PlayerAction--><g id="link_Player_PlayerAction"><path codeLine="361" d="M455.32,1652.36 C444.14,1668.32 432.83,1683.96 421.5,1699 C410.7,1713.33 403.24,1713.33 394.5,1729 C388.58,1739.61 382.94,1750.57 377.57,1761.76 " fill="none" id="Player-PlayerAction" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5ad8fe4f3bf689a70e0ad7da21b6be2c]
+link Player to ActionPhase--><g id="link_Player_ActionPhase"><path codeLine="362" d="M559.31,1652.14 C556.97,1662.2 554.69,1672.18 552.5,1682 C521.2,1822.49 492.46,1990.3 479.2,2070.8 " fill="none" id="Player-ActionPhase" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[191421bcdafac78d2f08fe3d9e1a4e29]
+link Player to FieldZone--><g id="link_Player_FieldZone"><path codeLine="363" d="M451.76,1644.32 C429.79,1665.17 406.01,1683.88 380.5,1699 C297.5,1748.19 236.51,1663.69 165.5,1729 C85.39,1802.68 70.44,1932.48 70.86,2021.86 " fill="none" id="Player-FieldZone" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9d10d028c761dc0a3a64587bb7e36371]
+link Player to InjuryStatus--><g id="link_Player_InjuryStatus"><path codeLine="364" d="M577.86,1652.23 C583.35,1668.87 591.38,1684.63 602.5,1699 C635.1,1741.11 681.95,1690.27 718.5,1729 C807.56,1823.37 807.28,1989.57 800.89,2070.93 " fill="none" id="Player-InjuryStatus" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ac81512dbfc440338f2ad06533422e4f]
+link Team to Formation--><g id="link_Team_Formation"><path codeLine="366" d="M1142.46,2306.79 C1157.97,2397.25 1175.8,2501.19 1187.77,2570.98 " fill="none" id="Team-Formation" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b913cd58ab50376c1b03cb004266739b]
+link Team to TeamPhase--><g id="link_Team_TeamPhase"><path codeLine="367" d="M1078.19,2306.79 C1061.91,2400.68 1043.11,2509.1 1031.03,2578.77 " fill="none" id="Team-TeamPhase" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ce21c5fbc75008a05282813c7f9256c7]
+link Match to MatchPeriod--><g id="link_Match_MatchPeriod"><path codeLine="369" d="M473.42,577.14 C386.75,608.67 294.75,652.74 222.5,713 C206.41,726.42 192.6,743.94 181.2,761.73 " fill="none" id="Match-MatchPeriod" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6edeee12620f7e45bdec7f141debf127]
+link Match to GamePhase--><g id="link_Match_GamePhase"><path codeLine="370" d="M473.39,635.55 C437.97,658.55 403.86,684.42 374.5,713 C364.63,722.61 355.59,733.77 347.46,745.43 " fill="none" id="Match-GamePhase" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7d4f12306fe9d60ca1da9813e891c635]
+link Match to SetPieceStatus--><g id="link_Match_SetPieceStatus"><path codeLine="371" d="M614.21,636.13 C590.83,660.92 567.33,687.21 546.5,713 C527.9,736.04 509.4,763.09 494.36,786.46 " fill="none" id="Match-SetPieceStatus" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ded8f02ab1406313a8566389d27d4fd1]
+@startuml
+' Define enums
+enum PhysicalState {
+  ON_GROUND
+  IN_AIR_LOW
+  IN_AIR_MEDIUM
+  IN_AIR_HIGH
+  STATIONARY
+  MOVING
+}
+
+enum BallAction {
+  PASSED
+  SHOT
+  CROSSED
+  DRIBBLED
+  CLEARED
+  LOOSE
+  HEADED
+  SAVED
+  BLOCKED
+  STATIC
+}
+
+enum FieldZone {
+  DEFENSIVE_THIRD
+  MIDDLE_THIRD
+  ATTACKING_THIRD
+  LEFT_WING
+  CENTER
+  RIGHT_WING
+  PENALTY_AREA
+  GOAL_AREA
+  CORNER_AREA
+}
+
+enum PlayerAction {
+  ' With ball
+  DRIBBLE
+  PASS
+  THROUGH_PASS
+  CROSS
+  SHOOT
+  HOLD
+  TURN
+  SKILL_MOVE
+  CLEAR
+  
+  ' Without ball, team in possession
+  RUN_INTO_SPACE
+  PROVIDE_SUPPORT
+  OVERLAPPING_RUN
+  UNDERLAPPING_RUN
+  AWAIT_PASS
+  CREATE_SPACE
+  ATTACK_CROSS
+  DROP_DEEP
+  
+  ' Without possession (defending)
+  TACKLE
+  INTERCEPT
+  BLOCK_SHOT
+  BLOCK_CROSS
+  MARK_PLAYER
+  PRESS
+  CLOSE_DOWN
+  JOCKEY
+  COVER_SPACE
+  TRACK_RUN
+  CONTAIN
+  RECOVER_POSITION
+  
+  ' Goalkeeper specific
+  SAVE_SHOT
+  COLLECT_CROSS
+  DISTRIBUTE
+  RUSH_OUT
+  SET_DEFENSIVE_LINE
+  SWEEP
+  
+  ' Transition
+  COUNTER_ATTACK
+  COUNTER_PRESS
+  TRANSITION_TO_DEFENSE
+  TRANSITION_TO_ATTACK
+  
+  ' Other
+  IDLE
+}
+
+enum ActionPhase {
+  STARTING
+  EXECUTING
+  FINISHING
+}
+
+enum PlayingPosition {
+  GK
+  CB
+  LB
+  RB
+  CDM
+  CM
+  CAM
+  LM
+  RM
+  LW
+  RW
+  CF
+  ST
+}
+
+enum TeamPhase {
+  ATTACKING
+  DEFENDING
+  TRANSITION_TO_ATTACK
+  TRANSITION_TO_DEFENSE
+  SET_PIECE_ATTACK
+  SET_PIECE_DEFENSE
+}
+
+enum InjuryStatus {
+  HEALTHY
+  SLIGHT_INJURY
+  SEVERE_INJURY
+}
+
+enum MatchPeriod {
+  FIRST_HALF
+  SECOND_HALF
+  FIRST_EXTRA
+  SECOND_EXTRA
+  PENALTIES
+  HALFTIME
+  FULLTIME
+}
+
+enum GamePhase {
+  OPEN_PLAY
+  SET_PIECE
+  OUT_OF_PLAY
+  GOAL_KICK
+  THROW_IN
+  CORNER
+  FREE_KICK
+  PENALTY
+  KICKOFF
+}
+
+enum SetPieceStatus {
+  NONE
+  PREPARING
+  READY
+  TAKEN
+}
+
+enum Formation {
+  F_4_4_2
+  F_4_3_3
+  F_4_2_3_1
+  F_3_5_2
+  F_5_3_2
+  F_4_5_1
+  F_3_4_3
+}
+
+' Define main classes
+class Ball {
+  + position: numpy.ndarray
+  + height: float
+  + velocity: numpy.ndarray
+  + speed: float
+  + possession_team: Team
+  + possession_player: Player
+  + physical_state: PhysicalState
+  + action: BallAction
+  + zone: FieldZone
+  + update_position(dt: float): void
+  - _update_zone(): void
+  + set_possession(team: Team, player: Player): void
+  + clear_possession(): void
+}
+
+class Player {
+  + player_id: str
+  + name: str
+  + assigned_position: PlayingPosition
+  + team: Team
+  + attributes: Dict[str, float]
+  + position: numpy.ndarray
+  + orientation: float
+  + velocity: numpy.ndarray
+  + speed: float
+  + acceleration: numpy.ndarray
+  + has_ball: bool
+  + distance_to_ball: float
+  + current_action: PlayerAction
+  + action_phase: ActionPhase
+  + action_target: Any
+  + action_timer: float
+  + available_for_action: bool
+  + current_zone: FieldZone
+  + marking_assignment: Player
+  + formation_position: Any
+  + current_stamina: float
+  + fatigue: float
+  + injury_status: InjuryStatus
+  + sprint_available: bool
+  + yellow_cards: int
+  + red_card: bool
+  + update_distance_to_ball(dis: float): void
+  + update_position(dt: float): void
+  - _update_zone(): void
+  + start_action(action: PlayerAction, target: Any): bool
+  + update_action(dt: float): void
+  + reduce_stamina(amount: float): void
+  + recover_stamina(amount: float): void
+  + is_available(): bool
+}
+
+class Team {
+  + team_id: str
+  + name: str
+  + possession: bool
+  + goals_scored: int
+  + goals_conceded: int
+  + players: List[Player]
+  + lineup: List[Player]
+  + bench: List[Player]
+  + captain: Player
+  + formation: Formation
+  + phase: TeamPhase
+  + tactics: Dict[str, Any]
+  + substitutions_made: int
+  + substitutions_available: int
+  + add_player(player: Player): void
+  + select_lineup(starting_eleven: List[Player]): void
+  + set_formation(formation: Formation): void
+  - _position_players(): void
+  + make_substitution(player_off: Player, player_on: Player): bool
+  + update_tactics(**kwargs): void
+}
+
+class Match {
+  + home_team: Team
+  + away_team: Team
+  + ball: Ball
+  + clock: float
+  + period: MatchPeriod
+  + game_phase: GamePhase
+  + set_piece_status: SetPieceStatus
+  + team_in_possession: Team
+  + events: List[Dict]
+  + get_current_minute(): int
+  + advance_time(dt: float): void
+  + switch_possession(team: Team, player: Player): void
+  + record_event(event_type: str, player: Player, team: Team, details: Dict): void
+}
+
+class SimpleMatchSimulator {
+  + match: Match
+  + env: simpy.Environment
+  + time_step: float
+  + setup(): void
+  + run(until: float): void
+  + match_process(): Generator
+  - _check_period_transitions(): void
+  - _update_players(): void
+  - _update_player_position(player: Player): void
+  - _update_player_stamina(player: Player): void
+  - _player_decision(player: Player): void
+  - _update_ball(): void
+  - _process_events(): void
+  - _check_for_goals(): void
+  - _reset_after_goal(kickoff_team: Team): void
+}
+
+class ActionOutcomePredictor {
+  + base_probabilities: Dict[PlayerAction, float]
+  + predict_success(action: PlayerAction, player: Player, context: Dict): bool
+  - _get_attribute_modifier(action: PlayerAction, player: Player): float
+  - _get_context_modifier(action: PlayerAction, context: Dict): float
+  - _get_stamina_modifier(player: Player): float
+  + predict_pass_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_shot_outcome(player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_tackle_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_dribble_outcome(player: Player, match: Match): Tuple[bool, str, Dict]
+}
+
+class PlayerDecisionModel {
+  + model: Any
+  + feature_scaler: Any
+  + action_mapping: Dict
+  + predict_action(player: Player, match: Match): PlayerAction
+  - _extract_features(player: Player, match: Match): numpy.ndarray
+  - _placeholder_prediction(player: Player, match: Match): PlayerAction
+}
+
+class PlayerDecisionTrainer {
+  + model_type: str
+  + training_data: List
+  + feature_columns: List
+  + label_column: str
+  + collect_data(data_source: str): void
+  + preprocess_data(): void
+  + train_model(): void
+  - _train_random_forest(): void
+  - _train_neural_network(): void
+  - _train_reinforcement_learning(): void
+  + evaluate_model(): void
+  + save_model(filepath: str): void
+}
+
+class FeatureExtractor {
+  + spatial_grid_size: int
+  + use_relative_positions: bool
+  + include_historical_features: bool
+  + feature_history_length: int
+  + extract_player_features(player: Player): Dict[str, float]
+  + extract_spatial_features(player: Player, match: Match): Dict[str, float]
+  + extract_tactical_features(player: Player, match: Match): Dict[str, float]
+  + extract_temporal_features(player: Player, match: Match, history: List[Dict]): Dict[str, float]
+}
+
+class AIPlayerDecisionSystem {
+  + decision_model: PlayerDecisionModel
+  + feature_extractor: FeatureExtractor
+  + state_history: Dict[str, List[Dict]]
+  - _load_model(model_path: str): void
+  + decide_action(player: Player, match: Match): PlayerAction
+  - _update_history(player: Player, match: Match): void
+}
+
+' Define relationships
+Ball "1" - - "0..1" Player: possession >
+Ball "1" - - "0..1" Team: possession >
+
+Player "11..*" - -o "1" Team: belongs to >
+Player "1" - - "0..1" Player: marks >
+
+Team "1" - -* "11..*" Player: has >
+Team "1" - -o "0..11" Player: lineup >
+Team "1" - -o "0..*" Player: bench >
+Team "1" - -o "1" Player: captain >
+
+Match "1" - -* "1" Ball: has >
+Match "1" - -o "1" Team: home_team >
+Match "1" - -o "1" Team: away_team >
+Match "1" - -o "0..1" Team: team_in_possession >
+
+SimpleMatchSimulator "1" - -o "1" Match: simulates >
+
+AIPlayerDecisionSystem "1" - -* "1" PlayerDecisionModel: uses >
+AIPlayerDecisionSystem "1" - -* "1" FeatureExtractor: uses >
+
+' Connect enums to classes that use them
+Ball - - PhysicalState
+Ball - - BallAction
+Ball - - FieldZone
+
+Player - - PlayingPosition
+Player - - PlayerAction
+Player - - ActionPhase
+Player - - FieldZone
+Player - - InjuryStatus
+
+Team - - Formation
+Team - - TeamPhase
+
+Match - - MatchPeriod
+Match - - GamePhase
+Match - - SetPieceStatus
+@enduml
+
+@startuml
+enum PhysicalState {
+  ON_GROUND
+  IN_AIR_LOW
+  IN_AIR_MEDIUM
+  IN_AIR_HIGH
+  STATIONARY
+  MOVING
+}
+
+enum BallAction {
+  PASSED
+  SHOT
+  CROSSED
+  DRIBBLED
+  CLEARED
+  LOOSE
+  HEADED
+  SAVED
+  BLOCKED
+  STATIC
+}
+
+enum FieldZone {
+  DEFENSIVE_THIRD
+  MIDDLE_THIRD
+  ATTACKING_THIRD
+  LEFT_WING
+  CENTER
+  RIGHT_WING
+  PENALTY_AREA
+  GOAL_AREA
+  CORNER_AREA
+}
+
+enum PlayerAction {
+  DRIBBLE
+  PASS
+  THROUGH_PASS
+  CROSS
+  SHOOT
+  HOLD
+  TURN
+  SKILL_MOVE
+  CLEAR
+  
+  RUN_INTO_SPACE
+  PROVIDE_SUPPORT
+  OVERLAPPING_RUN
+  UNDERLAPPING_RUN
+  AWAIT_PASS
+  CREATE_SPACE
+  ATTACK_CROSS
+  DROP_DEEP
+  
+  TACKLE
+  INTERCEPT
+  BLOCK_SHOT
+  BLOCK_CROSS
+  MARK_PLAYER
+  PRESS
+  CLOSE_DOWN
+  JOCKEY
+  COVER_SPACE
+  TRACK_RUN
+  CONTAIN
+  RECOVER_POSITION
+  
+  SAVE_SHOT
+  COLLECT_CROSS
+  DISTRIBUTE
+  RUSH_OUT
+  SET_DEFENSIVE_LINE
+  SWEEP
+  
+  COUNTER_ATTACK
+  COUNTER_PRESS
+  TRANSITION_TO_DEFENSE
+  TRANSITION_TO_ATTACK
+  
+  IDLE
+}
+
+enum ActionPhase {
+  STARTING
+  EXECUTING
+  FINISHING
+}
+
+enum PlayingPosition {
+  GK
+  CB
+  LB
+  RB
+  CDM
+  CM
+  CAM
+  LM
+  RM
+  LW
+  RW
+  CF
+  ST
+}
+
+enum TeamPhase {
+  ATTACKING
+  DEFENDING
+  TRANSITION_TO_ATTACK
+  TRANSITION_TO_DEFENSE
+  SET_PIECE_ATTACK
+  SET_PIECE_DEFENSE
+}
+
+enum InjuryStatus {
+  HEALTHY
+  SLIGHT_INJURY
+  SEVERE_INJURY
+}
+
+enum MatchPeriod {
+  FIRST_HALF
+  SECOND_HALF
+  FIRST_EXTRA
+  SECOND_EXTRA
+  PENALTIES
+  HALFTIME
+  FULLTIME
+}
+
+enum GamePhase {
+  OPEN_PLAY
+  SET_PIECE
+  OUT_OF_PLAY
+  GOAL_KICK
+  THROW_IN
+  CORNER
+  FREE_KICK
+  PENALTY
+  KICKOFF
+}
+
+enum SetPieceStatus {
+  NONE
+  PREPARING
+  READY
+  TAKEN
+}
+
+enum Formation {
+  F_4_4_2
+  F_4_3_3
+  F_4_2_3_1
+  F_3_5_2
+  F_5_3_2
+  F_4_5_1
+  F_3_4_3
+}
+
+class Ball {
+  + position: numpy.ndarray
+  + height: float
+  + velocity: numpy.ndarray
+  + speed: float
+  + possession_team: Team
+  + possession_player: Player
+  + physical_state: PhysicalState
+  + action: BallAction
+  + zone: FieldZone
+  + update_position(dt: float): void
+  - _update_zone(): void
+  + set_possession(team: Team, player: Player): void
+  + clear_possession(): void
+}
+
+class Player {
+  + player_id: str
+  + name: str
+  + assigned_position: PlayingPosition
+  + team: Team
+  + attributes: Dict[str, float]
+  + position: numpy.ndarray
+  + orientation: float
+  + velocity: numpy.ndarray
+  + speed: float
+  + acceleration: numpy.ndarray
+  + has_ball: bool
+  + distance_to_ball: float
+  + current_action: PlayerAction
+  + action_phase: ActionPhase
+  + action_target: Any
+  + action_timer: float
+  + available_for_action: bool
+  + current_zone: FieldZone
+  + marking_assignment: Player
+  + formation_position: Any
+  + current_stamina: float
+  + fatigue: float
+  + injury_status: InjuryStatus
+  + sprint_available: bool
+  + yellow_cards: int
+  + red_card: bool
+  + update_distance_to_ball(dis: float): void
+  + update_position(dt: float): void
+  - _update_zone(): void
+  + start_action(action: PlayerAction, target: Any): bool
+  + update_action(dt: float): void
+  + reduce_stamina(amount: float): void
+  + recover_stamina(amount: float): void
+  + is_available(): bool
+}
+
+class Team {
+  + team_id: str
+  + name: str
+  + possession: bool
+  + goals_scored: int
+  + goals_conceded: int
+  + players: List[Player]
+  + lineup: List[Player]
+  + bench: List[Player]
+  + captain: Player
+  + formation: Formation
+  + phase: TeamPhase
+  + tactics: Dict[str, Any]
+  + substitutions_made: int
+  + substitutions_available: int
+  + add_player(player: Player): void
+  + select_lineup(starting_eleven: List[Player]): void
+  + set_formation(formation: Formation): void
+  - _position_players(): void
+  + make_substitution(player_off: Player, player_on: Player): bool
+  + update_tactics(**kwargs): void
+}
+
+class Match {
+  + home_team: Team
+  + away_team: Team
+  + ball: Ball
+  + clock: float
+  + period: MatchPeriod
+  + game_phase: GamePhase
+  + set_piece_status: SetPieceStatus
+  + team_in_possession: Team
+  + events: List[Dict]
+  + get_current_minute(): int
+  + advance_time(dt: float): void
+  + switch_possession(team: Team, player: Player): void
+  + record_event(event_type: str, player: Player, team: Team, details: Dict): void
+}
+
+class SimpleMatchSimulator {
+  + match: Match
+  + env: simpy.Environment
+  + time_step: float
+  + setup(): void
+  + run(until: float): void
+  + match_process(): Generator
+  - _check_period_transitions(): void
+  - _update_players(): void
+  - _update_player_position(player: Player): void
+  - _update_player_stamina(player: Player): void
+  - _player_decision(player: Player): void
+  - _update_ball(): void
+  - _process_events(): void
+  - _check_for_goals(): void
+  - _reset_after_goal(kickoff_team: Team): void
+}
+
+class ActionOutcomePredictor {
+  + base_probabilities: Dict[PlayerAction, float]
+  + predict_success(action: PlayerAction, player: Player, context: Dict): bool
+  - _get_attribute_modifier(action: PlayerAction, player: Player): float
+  - _get_context_modifier(action: PlayerAction, context: Dict): float
+  - _get_stamina_modifier(player: Player): float
+  + predict_pass_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_shot_outcome(player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_tackle_outcome(player: Player, target_player: Player, match: Match): Tuple[bool, str, Dict]
+  + predict_dribble_outcome(player: Player, match: Match): Tuple[bool, str, Dict]
+}
+
+class PlayerDecisionModel {
+  + model: Any
+  + feature_scaler: Any
+  + action_mapping: Dict
+  + predict_action(player: Player, match: Match): PlayerAction
+  - _extract_features(player: Player, match: Match): numpy.ndarray
+  - _placeholder_prediction(player: Player, match: Match): PlayerAction
+}
+
+class PlayerDecisionTrainer {
+  + model_type: str
+  + training_data: List
+  + feature_columns: List
+  + label_column: str
+  + collect_data(data_source: str): void
+  + preprocess_data(): void
+  + train_model(): void
+  - _train_random_forest(): void
+  - _train_neural_network(): void
+  - _train_reinforcement_learning(): void
+  + evaluate_model(): void
+  + save_model(filepath: str): void
+}
+
+class FeatureExtractor {
+  + spatial_grid_size: int
+  + use_relative_positions: bool
+  + include_historical_features: bool
+  + feature_history_length: int
+  + extract_player_features(player: Player): Dict[str, float]
+  + extract_spatial_features(player: Player, match: Match): Dict[str, float]
+  + extract_tactical_features(player: Player, match: Match): Dict[str, float]
+  + extract_temporal_features(player: Player, match: Match, history: List[Dict]): Dict[str, float]
+}
+
+class AIPlayerDecisionSystem {
+  + decision_model: PlayerDecisionModel
+  + feature_extractor: FeatureExtractor
+  + state_history: Dict[str, List[Dict]]
+  - _load_model(model_path: str): void
+  + decide_action(player: Player, match: Match): PlayerAction
+  - _update_history(player: Player, match: Match): void
+}
+
+Ball "1" - - "0..1" Player: possession >
+Ball "1" - - "0..1" Team: possession >
+
+Player "11..*" - -o "1" Team: belongs to >
+Player "1" - - "0..1" Player: marks >
+
+Team "1" - -* "11..*" Player: has >
+Team "1" - -o "0..11" Player: lineup >
+Team "1" - -o "0..*" Player: bench >
+Team "1" - -o "1" Player: captain >
+
+Match "1" - -* "1" Ball: has >
+Match "1" - -o "1" Team: home_team >
+Match "1" - -o "1" Team: away_team >
+Match "1" - -o "0..1" Team: team_in_possession >
+
+SimpleMatchSimulator "1" - -o "1" Match: simulates >
+
+AIPlayerDecisionSystem "1" - -* "1" PlayerDecisionModel: uses >
+AIPlayerDecisionSystem "1" - -* "1" FeatureExtractor: uses >
+
+Ball - - PhysicalState
+Ball - - BallAction
+Ball - - FieldZone
+
+Player - - PlayingPosition
+Player - - PlayerAction
+Player - - ActionPhase
+Player - - FieldZone
+Player - - InjuryStatus
+
+Team - - Formation
+Team - - TeamPhase
+
+Match - - MatchPeriod
+Match - - GamePhase
+Match - - SetPieceStatus
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
